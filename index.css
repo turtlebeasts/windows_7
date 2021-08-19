@@ -1,0 +1,53 @@
+body{
+	background-image: url('images/lock_screen.jpg');
+	background-size: cover;
+	font-family: Segoe UI;
+}
+
+#profile_box{
+	background-image: url('images/profile.png');
+	width: 120px;
+	height: 120px;
+	background-size: cover;
+	margin: auto;
+	border-radius: 10% 10% 10% 10%;
+	margin-top: 200px;
+	box-shadow: 0 2px 2.2px rgba(0, 0, 0, 0.034),
+			  0 6px 5.3px rgba(0, 0, 0, 0.048),
+			  0 10px 10px rgba(0, 0, 0, 0.06),
+			  0 17px 17.9px rgba(0, 0, 0, 0.072),
+			  0 30px 33.4px rgba(0, 0, 0, 0.086);
+}
+
+#pass{
+	margin-top: 20px;
+	margin-left: 675px;
+	float: left;
+}
+
+#button{
+	margin-top: 20px;
+	margin-left: 10px;
+	float: left;
+	background-image: url('images/button.png');
+	width: 23px;
+	height: 23px;
+	background-size: cover;
+	border-radius: 50%;
+}
+input{
+	font-family: Segoe UI;
+}
+#user{
+	margin-left: 710px;
+	margin-top: -10px;
+	color: white;
+	text-shadow: 3px 0px 11px rgba(150, 150, 150, 1);
+}
+#input{
+	margin-top: -15px;
+}
+#button:hover{
+	filter: brightness(1.4);
+	transition: all 0.5s ease;
+}
