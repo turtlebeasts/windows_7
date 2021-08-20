@@ -2,6 +2,7 @@ body{
 	background-image: url('images/lock_screen.jpg');
 	background-size: cover;
 	font-family: Segoe UI;
+	background-color: black;
 }
 
 #profile_box{
@@ -9,9 +10,9 @@ body{
 	width: 120px;
 	height: 120px;
 	background-size: cover;
-	margin: auto;
+	margin-left: 700px;
 	border-radius: 10% 10% 10% 10%;
-	margin-top: 200px;
+	margin-top: 300px;
 	box-shadow: 0 2px 2.2px rgba(0, 0, 0, 0.034),
 			  0 6px 5.3px rgba(0, 0, 0, 0.048),
 			  0 10px 10px rgba(0, 0, 0, 0.06),
@@ -49,5 +50,9 @@ input{
 }
 #button:hover{
 	filter: brightness(1.4);
-	transition: all 0.5s ease;
+	transition: 0.1s ease-in;
+}
+#button:active{
+	filter: brightness(0.5);
+	transition: 0s ;
 }
